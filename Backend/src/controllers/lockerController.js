@@ -1,5 +1,5 @@
 const Locker = require("../models/locker");
-const User = require("../models/User");
+const User = require("../models/user");
 const Transaction = require("../models/Transaction");
 
 const createLocker = async (req, res) => {
